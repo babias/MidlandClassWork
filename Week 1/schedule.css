@@ -17,6 +17,9 @@ thead{
 
 article{
     text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 60px;
 }
 
 /* Style inputs with type="text", select elements and textareas */
