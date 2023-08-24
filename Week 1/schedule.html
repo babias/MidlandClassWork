@@ -25,36 +25,80 @@
         </thead>
         <tr>
             <td>Morning</td>
-            <td></td>
+            <td rowspan="3" style="background-color: rgb(139, 230, 186)">Unavailable</td>
             <td>Travel</td>
             <td>Meeting</td>
             <td>Meeting</td>
             <td>Presentation</td>
             <td>Travel</td>
-            <td></td>
+            <td rowspan="2"></td>
         </tr>
         <tr>
             <td>Noon</td>
-            <td>Lunch</td>
-            <td></td>
-            <td>Lunch</td>
-            <td>Client Lunch</td>
-            <td>Presentation</td>
-            <td></td>
-            <td></td>
+            <td colspan="5" style="color: black;">Lunch break</td>
         </tr>
         <tr>
             <td>Afternoon</td>
             <td></td>
             <td>Travel</td>
             <td></td>
-            <td></td>
             <td>Client Dinner</td>
             <td>Travel</td>
             <td>Family Dinner</td>
-        </tr>
-                
+        </tr>          
     </table>
+
+    <article>
+        <p>
+            Fill out below application for our dispatch team. An agent will get back to you with an estimate.
+        </p>
+    </article>
+
+    <form>
+        <div class="customerrequest">
+        <form action="https://www.google.com/">
+      
+          <label for="name">First and last name</label>
+          <input type="text" id="name" name="name" placeholder="Your first and last name..">
+
+          <label for="phone">Phone number</label>
+          <input type="text" id="phone" name="phone" placeholder="Type your phone number..">
+                  
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="romania">Romania</option>
+            <option value="bulgaria">Bulgaria</option>
+            <option value="usa">USA</option>
+          </select>
+                                  
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+          <label for="quatity">Quatity</label>
+          <p></p>
+          <label for="quantity">10</label>
+          <input type="radio" name="quatity1" id="quatity1" value="10">
+          <label for="quantity">50</label>
+          <input type="radio" name="quatity2" id="quatity2" value="50">
+          <label for="quantity">100</label>
+          <input type="radio" name="quatity3" id="quatity3" value="100">
+
+          <p>Options</p>
+
+          <input type="checkbox" id="option1" name="food" value="curry"/>
+          <label for="delivery">Delivery</label>
+          <input type="checkbox" id="option2" name="food" value="icecream"/>
+          <label for="insurance">Insurance</label>
+                   
+          <p></p>
+          
+          <input type="submit" value="Submit">
+      
+        </form>
+      
+    </form>
+
+
     
 </body>
 </html>
