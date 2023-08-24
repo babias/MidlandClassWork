@@ -6,6 +6,11 @@ td{
 }
 
 table, h1 {
+    border-collapse: collapse;
     text-align: center;
     margin:auto
+}
+
+thead{
+    font-weight: bold;
 }
