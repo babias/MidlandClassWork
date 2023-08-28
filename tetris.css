@@ -1,0 +1,103 @@
+.container{
+    display: flex;
+/*    flex: row wrap;        */
+    flex-flow: row;
+    justify-content: center;
+}
+
+/*.boxYellow:before {
+    padding-top: 100%;
+    content: '';
+    float: left;
+}*/
+
+.boxCyan{
+    background-color: cyan;
+/*  height: 50px;
+    width: 10%; */
+    box-shadow: 0px 0px 15px grey inset;
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    clear: both;
+}
+.boxLime{
+    background-color: lime;
+/*  height: 50px;
+    width: 10%; */
+    box-shadow: 0px 0px 15px grey inset;
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    clear: both;
+}
+
+.boxYellow{
+    background-color: yellow;
+/*  height: 50px;
+    width: 10%;n */
+    box-shadow: 0px 0px 15px grey inset;
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    clear: both;
+}
+
+.boxMediumslateblue{
+    background-color:mediumslateblue;
+/*  height: 50px;
+    width: 10%;  */
+    box-shadow: 0px 0px 15px grey inset;
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    clear: both;
+}
+.boxBlack{
+    background-color:black;
+/*  height: 50px;
+    width: 10%; */
+    box-shadow: 0px 0px 15px grey inset;
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    clear: both;
+}
+.boxOrange{
+    background-color:orange;
+/*  height: 50px;
+    width: 10%; */
+    box-shadow: 0px 0px 15px grey inset;
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    clear: both;
+}
+.boxRed{
+    background-color:red;
+/*  height: 50px;
+    width: 10%; */
+    box-shadow: 0px 0px 15px grey inset;
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    clear: both;
+}
+.boxBlue{
+    background-color:blue;
+/*  height: 50px;
+    width: 10%; */
+    box-shadow: 0px 0px 15px grey inset;
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    clear: both;
+}
