@@ -1,15 +1,35 @@
 .container{
     display: flex;
-/*    flex: row wrap;        */
+    flex: row wrap;
     flex-flow: row;
     justify-content: center;
 }
 
-/*.boxYellow:before {
-    padding-top: 100%;
-    content: '';
-    float: left;
-}*/
+.borderTop{
+    border-top: 1.5px black solid;            
+}
+.borderBottom{
+    border-bottom: 1.5px black solid;	    
+}
+.borderRight{
+    border-right: 1.5px black solid;
+}
+.borderLeft{
+    border-left: 1.5px black solid;
+}
+
+.borderTopGray{
+    border-top: 1.5px rgba(128, 128, 128, 0.500) solid;            
+}
+.borderBottomGray{
+    border-bottom: 1.5px rgba(128, 128, 128, 0.500) solid;	    
+}
+.borderRightGray{
+    border-right: 1.5px rgba(128, 128, 128, 0.500) solid;
+}
+.borderLeftGray{
+    border-left: 1.5px rgba(128, 128, 128, 0.500) solid;
+}
 
 .boxCyan{
     background-color: cyan;
@@ -19,9 +39,9 @@
     float: left;
     height: 100px;
     width: 100px;
-    border: 1px solid black;
-    clear: both;
+       
 }
+
 .boxLime{
     background-color: lime;
 /*  height: 50px;
@@ -30,8 +50,7 @@
     float: left;
     height: 100px;
     width: 100px;
-    border: 1px solid black;
-    clear: both;
+ 
 }
 
 .boxYellow{
@@ -42,8 +61,8 @@
     float: left;
     height: 100px;
     width: 100px;
-    border: 1px solid black;
-    clear: both;
+    
+  
 }
 
 .boxMediumslateblue{
@@ -54,8 +73,8 @@
     float: left;
     height: 100px;
     width: 100px;
-    border: 1px solid black;
-    clear: both;
+    
+   
 }
 .boxBlack{
     background-color:black;
@@ -65,8 +84,8 @@
     float: left;
     height: 100px;
     width: 100px;
-    border: 1px solid black;
-    clear: both;
+ 
+  
 }
 .boxOrange{
     background-color:orange;
@@ -76,8 +95,8 @@
     float: left;
     height: 100px;
     width: 100px;
-    border: 1px solid black;
-    clear: both;
+    
+  
 }
 .boxRed{
     background-color:red;
@@ -87,8 +106,8 @@
     float: left;
     height: 100px;
     width: 100px;
-    border: 1px solid black;
-    clear: both;
+   
+  
 }
 .boxBlue{
     background-color:blue;
@@ -98,6 +117,6 @@
     float: left;
     height: 100px;
     width: 100px;
-    border: 1px solid black;
-    clear: both;
+   
+   
 }
