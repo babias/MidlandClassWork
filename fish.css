@@ -1,0 +1,35 @@
+/* apply the active class to the link the page is currentlu om */
+/*nav a.active{
+
+} */
+
+header{
+    background-color: gray;
+    text-align: right; 
+    display: flex;     
+    justify-content: space-between;
+}
+
+header img{
+    max-width: 100px;
+}
+
+header h1{
+    font-size: 40px; 
+    color: #f4f4f4;
+    display: inline-block;
+    padding-right: 10%;
+}
+
+nav{
+    margin: 5px;
+    padding: 1px;
+}
+.navBar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgb(180, 180, 180);
+       
+}
+
