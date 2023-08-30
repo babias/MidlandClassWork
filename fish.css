@@ -9,7 +9,6 @@ header{
     display: flex;     
     justify-content: space-between;
 }
-
 header img{
     max-width: 100px;
 }
@@ -24,12 +23,82 @@ header h1{
 nav{
     margin: 5px;
     padding: 1px;
-}
-.navBar{
     display: flex;
-    width: 100%;
+    width: auto%;
     justify-content: space-around;
     background-color: rgb(180, 180, 180);
-       
+    spa
+}
+.navItem{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+.navItem:hover{
+    background-color: blueviolet;
+}
+.mainContainer{
+    display: flex;
+    margin-left: 5%;
+    text-align: center;    
 }
 
+.subContainer{
+    display: flex;
+    flex-wrap: wrap ;
+    flex-direction: column;
+    margin-left: 50px;  
+    padding-left: 10%;     
+}
+
+img{
+    height: 100px;
+}
+.flexItem{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;    
+}
+
+.list{
+    flex-basis: ;
+}
+
+footer{
+    position: relative;
+    background-color: aqua;
+    background-image: url("https://i.pinimg.com/736x/a2/f0/73/a2f073767c9b24438ffaf4fe60c25ee6--clipart-fish.jpg");
+    background-size:contain;
+    background-repeat: repeat;
+    width: 99%;
+    height: 100px;
+    clear: both;
+    color: bisque;
+    text-align: center;
+    margin: 10px;  
+    font-weight: bolder;
+    
+}
+
+h3{
+    position: absolute;
+    width: 100%;
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+    
+}
+
+.rotate:hover {
+    transform: rotate(70deg);
+  }
+
+.scale:hover {
+  transform: scale(1.5, 2);
+} 
+
+.skew:hover {
+    transform: skew(35deg, 25deg);
+}
